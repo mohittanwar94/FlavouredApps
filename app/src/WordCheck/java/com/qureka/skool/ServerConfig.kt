@@ -6,7 +6,7 @@ package com.qureka.skool
 
 object ServerConfig {
     const val APP_ID = "character.counter.tools.ca" // live
-    const val appBaseUrl: String = "https://feapps.qureka.me"
+    const val appBaseUrl: String = "https://google.com"
     const val appScreenShotDisable: Boolean = true
     const val provider = "character.counter.tools.ca.provider"
     const val fireBaseEventPreFix = "APP47_"
