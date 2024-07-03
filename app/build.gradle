@@ -58,12 +58,6 @@ android {
     }
     flavorDimensions = ["main"]
     productFlavors {
-        GoldCompassPro {
-            versionCode 1
-            versionName "1.0"
-            applicationId "compass.tools.navigation.ca"
-            signingConfig signingConfigs.releaseConfig
-        }
         CountTracker {
             versionCode 3
             versionName "3.0"

@@ -135,25 +135,8 @@ class SplashActivity : BaseActivity() {
 
 
     private fun getGlobalConfig() {
-        (preferences.getObject(
-            GLOBAL_CONFIG_RESPONSE, BaseResponse::class.java
-        ) as? BaseResponse)?.let {
-            if (preferences.getlong(
-                    GLOBAL_CONFIG_CALL_TIME, 0L
-                ) + HOURS_24 > System.currentTimeMillis()
-            ) {
-                startOnBoarding()
-                setStatusAccordingToApk()
-            } else {
-                lifecycleScope.launch {
-                    globalConfigViewModel.getGlobalConfig()
-                }
-            }
-        } ?: kotlin.run {
-            lifecycleScope.launch {
-                globalConfigViewModel.getGlobalConfig()
-            }
-        }
+        startOnBoarding()
+        setStatusAccordingToApk()
     }
 
     private fun setObserver() {
