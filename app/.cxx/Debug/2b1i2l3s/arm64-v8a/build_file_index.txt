@@ -1,1 +1,1 @@
-/Users/mohittanwar/Documents/demo-flavour-apps/app/CMakeLists.txt
+/Users/mohittanwar/Documents/FlavouredApps/app/CMakeLists.txt

@@ -1,12 +1,12 @@
 [
 {
-  "directory": "/Users/mohittanwar/Documents/demo-flavour-apps/app/.cxx/Debug/2b1i2l3s/x86",
-  "command": "/Users/mohittanwar/Library/Android/sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android23 --sysroot=/Users/mohittanwar/Library/Android/sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o -c /Users/mohittanwar/Documents/demo-flavour-apps/app/src/main/cpp/native-lib.cpp",
-  "file": "/Users/mohittanwar/Documents/demo-flavour-apps/app/src/main/cpp/native-lib.cpp"
+  "directory": "/Users/mohittanwar/Documents/FlavouredApps/app/.cxx/Debug/2b1i2l3s/x86",
+  "command": "/Users/mohittanwar/Library/Android/sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android23 --sysroot=/Users/mohittanwar/Library/Android/sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o -c /Users/mohittanwar/Documents/FlavouredApps/app/src/main/cpp/native-lib.cpp",
+  "file": "/Users/mohittanwar/Documents/FlavouredApps/app/src/main/cpp/native-lib.cpp"
 },
 {
-  "directory": "/Users/mohittanwar/Documents/demo-flavour-apps/app/.cxx/Debug/2b1i2l3s/x86",
-  "command": "/Users/mohittanwar/Library/Android/sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android23 --sysroot=/Users/mohittanwar/Library/Android/sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -D_2048_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/2048.dir/src/main/cpp/2048.cpp.o -c /Users/mohittanwar/Documents/demo-flavour-apps/app/src/main/cpp/2048.cpp",
-  "file": "/Users/mohittanwar/Documents/demo-flavour-apps/app/src/main/cpp/2048.cpp"
+  "directory": "/Users/mohittanwar/Documents/FlavouredApps/app/.cxx/Debug/2b1i2l3s/x86",
+  "command": "/Users/mohittanwar/Library/Android/sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android23 --sysroot=/Users/mohittanwar/Library/Android/sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -D_2048_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/2048.dir/src/main/cpp/2048.cpp.o -c /Users/mohittanwar/Documents/FlavouredApps/app/src/main/cpp/2048.cpp",
+  "file": "/Users/mohittanwar/Documents/FlavouredApps/app/src/main/cpp/2048.cpp"
 }
 ]

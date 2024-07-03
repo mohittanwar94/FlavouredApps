@@ -1,4 +1,4 @@
-/Users/mohittanwar/Documents/demo-flavour-apps/app/.cxx/Debug/2b1i2l3s/arm64-v8a/CMakeFiles/native-lib.dir
-/Users/mohittanwar/Documents/demo-flavour-apps/app/.cxx/Debug/2b1i2l3s/arm64-v8a/CMakeFiles/2048.dir
-/Users/mohittanwar/Documents/demo-flavour-apps/app/.cxx/Debug/2b1i2l3s/arm64-v8a/CMakeFiles/edit_cache.dir
-/Users/mohittanwar/Documents/demo-flavour-apps/app/.cxx/Debug/2b1i2l3s/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/mohittanwar/Documents/FlavouredApps/app/.cxx/Debug/2b1i2l3s/arm64-v8a/CMakeFiles/native-lib.dir
+/Users/mohittanwar/Documents/FlavouredApps/app/.cxx/Debug/2b1i2l3s/arm64-v8a/CMakeFiles/2048.dir
+/Users/mohittanwar/Documents/FlavouredApps/app/.cxx/Debug/2b1i2l3s/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/mohittanwar/Documents/FlavouredApps/app/.cxx/Debug/2b1i2l3s/arm64-v8a/CMakeFiles/rebuild_cache.dir

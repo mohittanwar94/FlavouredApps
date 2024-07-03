@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/mohittanwar/Documents/demo-flavour-apps/app/.cxx/Debug/2b1i2l3s/arm64-v8a/
+cmake_ninja_workdir = /Users/mohittanwar/Documents/FlavouredApps/app/.cxx/Debug/2b1i2l3s/arm64-v8a/
 # =============================================================================
 # Object build statements for SHARED_LIBRARY target native-lib
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = /Users/mohittanwar/Documents/demo-flavour-apps/app/.cxx/De
 
 build cmake_object_order_depends_target_native-lib: phony || CMakeFiles/native-lib.dir
 
-build CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o: CXX_COMPILER__native-lib_Debug /Users/mohittanwar/Documents/demo-flavour-apps/app/src/main/cpp/native-lib.cpp || cmake_object_order_depends_target_native-lib
+build CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o: CXX_COMPILER__native-lib_Debug /Users/mohittanwar/Documents/FlavouredApps/app/src/main/cpp/native-lib.cpp || cmake_object_order_depends_target_native-lib
   DEFINES = -Dnative_lib_EXPORTS
   DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC
@@ -88,7 +88,7 @@ build ../../../../build/intermediates/cxx/Debug/2b1i2l3s/obj/arm64-v8a/libnative
 
 build cmake_object_order_depends_target_2048: phony || CMakeFiles/2048.dir
 
-build CMakeFiles/2048.dir/src/main/cpp/2048.cpp.o: CXX_COMPILER__2048_Debug /Users/mohittanwar/Documents/demo-flavour-apps/app/src/main/cpp/2048.cpp || cmake_object_order_depends_target_2048
+build CMakeFiles/2048.dir/src/main/cpp/2048.cpp.o: CXX_COMPILER__2048_Debug /Users/mohittanwar/Documents/FlavouredApps/app/src/main/cpp/2048.cpp || cmake_object_order_depends_target_2048
   DEFINES = -D_2048_EXPORTS
   DEP_FILE = CMakeFiles/2048.dir/src/main/cpp/2048.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC
@@ -123,7 +123,7 @@ build ../../../../build/intermediates/cxx/Debug/2b1i2l3s/obj/arm64-v8a/lib2048.s
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/mohittanwar/Documents/demo-flavour-apps/app/.cxx/Debug/2b1i2l3s/arm64-v8a && /Users/mohittanwar/Library/Android/sdk/cmake/3.22.1/bin/ccmake -S/Users/mohittanwar/Documents/demo-flavour-apps/app -B/Users/mohittanwar/Documents/demo-flavour-apps/app/.cxx/Debug/2b1i2l3s/arm64-v8a
+  COMMAND = cd /Users/mohittanwar/Documents/FlavouredApps/app/.cxx/Debug/2b1i2l3s/arm64-v8a && /Users/mohittanwar/Library/Android/sdk/cmake/3.22.1/bin/ccmake -S/Users/mohittanwar/Documents/FlavouredApps/app -B/Users/mohittanwar/Documents/FlavouredApps/app/.cxx/Debug/2b1i2l3s/arm64-v8a
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -135,7 +135,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/mohittanwar/Documents/demo-flavour-apps/app/.cxx/Debug/2b1i2l3s/arm64-v8a && /Users/mohittanwar/Library/Android/sdk/cmake/3.22.1/bin/cmake --regenerate-during-build -S/Users/mohittanwar/Documents/demo-flavour-apps/app -B/Users/mohittanwar/Documents/demo-flavour-apps/app/.cxx/Debug/2b1i2l3s/arm64-v8a
+  COMMAND = cd /Users/mohittanwar/Documents/FlavouredApps/app/.cxx/Debug/2b1i2l3s/arm64-v8a && /Users/mohittanwar/Library/Android/sdk/cmake/3.22.1/bin/cmake --regenerate-during-build -S/Users/mohittanwar/Documents/FlavouredApps/app -B/Users/mohittanwar/Documents/FlavouredApps/app/.cxx/Debug/2b1i2l3s/arm64-v8a
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -159,7 +159,7 @@ build native-lib: phony ../../../../build/intermediates/cxx/Debug/2b1i2l3s/obj/a
 # =============================================================================
 
 #############################################
-# Folder: /Users/mohittanwar/Documents/demo-flavour-apps/app/.cxx/Debug/2b1i2l3s/arm64-v8a
+# Folder: /Users/mohittanwar/Documents/FlavouredApps/app/.cxx/Debug/2b1i2l3s/arm64-v8a
 
 build all: phony ../../../../build/intermediates/cxx/Debug/2b1i2l3s/obj/arm64-v8a/libnative-lib.so ../../../../build/intermediates/cxx/Debug/2b1i2l3s/obj/arm64-v8a/lib2048.so
 

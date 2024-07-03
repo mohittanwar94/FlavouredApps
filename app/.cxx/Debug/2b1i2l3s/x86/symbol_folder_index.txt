@@ -1,1 +1,1 @@
-/Users/mohittanwar/Documents/demo-flavour-apps/app/build/intermediates/cxx/Debug/2b1i2l3s/obj/x86
+/Users/mohittanwar/Documents/FlavouredApps/app/build/intermediates/cxx/Debug/2b1i2l3s/obj/x86
