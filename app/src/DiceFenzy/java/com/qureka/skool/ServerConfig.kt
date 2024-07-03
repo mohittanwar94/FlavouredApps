@@ -6,7 +6,7 @@ package com.qureka.skool
 
 object ServerConfig {
     const val APP_ID = "dicefrenzy.board.casualgames.ca" // live
-    const val appBaseUrl: String = "https://feapps.qureka.me"
+    const val appBaseUrl: String = "https://google.com"
     const val appScreenShotDisable: Boolean = true
     const val provider = "dicefrenzy.board.casualgames.ca.provider"
     const val fireBaseEventPreFix = "APP58_"
