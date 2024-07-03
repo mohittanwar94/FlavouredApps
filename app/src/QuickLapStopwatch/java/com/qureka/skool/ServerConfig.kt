@@ -6,7 +6,7 @@ package com.qureka.skool
 
 object ServerConfig {
     const val APP_ID = "quicklap.stopwatch.pro.ca" // live
-    const val appBaseUrl: String = "https://feapps.qureka.me"
+    const val appBaseUrl: String = "https://google.com"
     const val appScreenShotDisable: Boolean = true
     const val provider = "quicklap.stopwatch.pro.ca.provider"
     const val fireBaseEventPreFix = "APP52_"
