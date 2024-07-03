@@ -6,7 +6,7 @@ package com.qureka.skool
 
 object ServerConfig {
     const val APP_ID = "activitycounter.tracker.tools.ca" // live
-    const val appBaseUrl: String = "https://feapps.qureka.me"
+    const val appBaseUrl: String = "https://google.com"
     const val appScreenShotDisable: Boolean = true
     const val provider = "activitycounter.tracker.tools.ca.provider"
     const val fireBaseEventPreFix = "APP46_"
