@@ -228,27 +228,8 @@ open class BaseActivity : AppCompatActivity() {
     @SuppressLint("HardwareIds")
     fun fireFgpEvent() {
         if (isOptIN(this)) {
-            (preferences.getObject(
-                GLOBAL_CONFIG_RESPONSE, BaseResponse::class.java
-            ) as? BaseResponse)?.response?.authenticationKey?.let { authenticationKey ->
-                lifecycleScope.launch {
                     preferences.setBoolean(IS_FIRST_GAME_PLAY, true)
-                    val gaID = Utils.getGaID(this@BaseActivity)
-                    firstGamePlayViewModel.sendFirstGpEvent(
-                        preferences,
-                        FirstGamePlayRequest().apply {
-                            ga_id = gaID
-                            package_id = activity.packageName
-                            device_id =
-                                Settings.Secure.getString(
-                                    contentResolver,
-                                    Settings.Secure.ANDROID_ID
-                                )
-                            signature = authenticationKey.sha256()
-                        })
-                }
             }
-        }
     }
 
     private fun showMessage(networkError: ResultWrapper.NetworkError) {
