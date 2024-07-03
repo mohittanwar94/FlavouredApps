@@ -1,0 +1,19 @@
+# ninja log v5
+0	3	0	clean	13a1f051ce3c1dd5
+0	283	1718356305863222471	CMakeFiles/2048.dir/src/main/cpp/2048.cpp.o	6c90836796a8ca23
+283	312	1718356305892972102	../../../../build/intermediates/cxx/RelWithDebInfo/cv2bu3a4/obj/armeabi-v7a/lib2048.so	518a0866ae7970f6
+212	245	1718356305826021599	../../../../build/intermediates/cxx/RelWithDebInfo/cv2bu3a4/obj/armeabi-v7a/libnative-lib.so	c67f9fff42eab8dd
+0	211	1718356305791240585	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	2c3f8e3aff8ad467
+0	3	0	clean	13a1f051ce3c1dd5
+0	3	0	clean	13a1f051ce3c1dd5
+0	3	0	clean	13a1f051ce3c1dd5
+0	3	0	clean	13a1f051ce3c1dd5
+0	3	0	clean	13a1f051ce3c1dd5
+0	3	0	clean	13a1f051ce3c1dd5
+0	3	0	clean	13a1f051ce3c1dd5
+0	3	0	clean	13a1f051ce3c1dd5
+0	3	0	clean	13a1f051ce3c1dd5
+1	225	1718871439047831000	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	2c3f8e3aff8ad467
+225	263	1718871439087540245	../../../../build/intermediates/cxx/RelWithDebInfo/cv2bu3a4/obj/armeabi-v7a/libnative-lib.so	c67f9fff42eab8dd
+1	293	1718871439116031402	CMakeFiles/2048.dir/src/main/cpp/2048.cpp.o	6c90836796a8ca23
+293	323	1718871439147192612	../../../../build/intermediates/cxx/RelWithDebInfo/cv2bu3a4/obj/armeabi-v7a/lib2048.so	518a0866ae7970f6

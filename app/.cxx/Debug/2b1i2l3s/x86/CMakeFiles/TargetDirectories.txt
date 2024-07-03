@@ -1,0 +1,4 @@
+/Users/mohittanwar/Documents/demo-flavour-apps/app/.cxx/Debug/2b1i2l3s/x86/CMakeFiles/native-lib.dir
+/Users/mohittanwar/Documents/demo-flavour-apps/app/.cxx/Debug/2b1i2l3s/x86/CMakeFiles/2048.dir
+/Users/mohittanwar/Documents/demo-flavour-apps/app/.cxx/Debug/2b1i2l3s/x86/CMakeFiles/edit_cache.dir
+/Users/mohittanwar/Documents/demo-flavour-apps/app/.cxx/Debug/2b1i2l3s/x86/CMakeFiles/rebuild_cache.dir

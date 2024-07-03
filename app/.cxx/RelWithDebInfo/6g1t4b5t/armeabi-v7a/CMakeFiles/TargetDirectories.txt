@@ -1,0 +1,4 @@
+/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/.cxx/RelWithDebInfo/6g1t4b5t/armeabi-v7a/CMakeFiles/native-lib.dir
+/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/.cxx/RelWithDebInfo/6g1t4b5t/armeabi-v7a/CMakeFiles/2048.dir
+/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/.cxx/RelWithDebInfo/6g1t4b5t/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/.cxx/RelWithDebInfo/6g1t4b5t/armeabi-v7a/CMakeFiles/rebuild_cache.dir

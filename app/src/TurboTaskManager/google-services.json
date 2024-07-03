@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "495472820087",
+    "project_id": "turbotask-manager",
+    "storage_bucket": "turbotask-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495472820087:android:efd1f8827b6079e5cdab72",
+        "android_client_info": {
+          "package_name": "turbotask.management.tools.ca"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgbEngQjS_oPYsvlqwYkOr70JTnbz1jJg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

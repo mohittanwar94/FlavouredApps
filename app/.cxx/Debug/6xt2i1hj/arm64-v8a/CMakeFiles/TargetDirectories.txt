@@ -1,0 +1,4 @@
+/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/.cxx/Debug/6xt2i1hj/arm64-v8a/CMakeFiles/native-lib.dir
+/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/.cxx/Debug/6xt2i1hj/arm64-v8a/CMakeFiles/2048.dir
+/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/.cxx/Debug/6xt2i1hj/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/.cxx/Debug/6xt2i1hj/arm64-v8a/CMakeFiles/rebuild_cache.dir

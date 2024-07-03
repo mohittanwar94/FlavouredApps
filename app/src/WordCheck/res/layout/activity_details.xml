@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/splashMainnested"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/getting_start_bg">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/splashMainConstraintLayout"
+        android:layout_width="match_parent"
+        android:fitsSystemWindows="true"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="@dimen/_27sdp"
+            android:layout_height="@dimen/_27sdp"
+            android:layout_margin="@dimen/_11sdp"
+            android:background="@drawable/iv_back"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/etWordCount"
+            android:layout_width="@dimen/_272sdp"
+            android:layout_height="@dimen/_295sdp"
+            android:maxHeight="@dimen/_295sdp"
+            android:layout_marginTop="@dimen/_43sdp"
+            android:background="@drawable/edittext_rounded_shape"
+            android:gravity="top|start"
+            android:padding="@dimen/_14sdp"
+            android:overScrollMode="always"
+            android:scrollbarStyle="insideInset"
+            android:singleLine="false"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivBack" />
+
+        <TextView
+            android:id="@+id/tvNoOfWordHeading"
+            style="@style/TextStyle6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:text="@string/no_of_words"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etWordCount" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clWordCount"
+            android:layout_width="@dimen/_127sdp"
+            android:layout_height="@dimen/_33sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_31sdp"
+            android:background="@drawable/iv_char_count"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvNoOfWordHeading">
+
+            <TextView
+                android:id="@+id/tvWordCount"
+                style="@style/TextStyle7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/words_count"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clCharCount"
+            android:layout_width="@dimen/_127sdp"
+            android:layout_height="@dimen/_33sdp"
+            android:layout_marginTop="@dimen/_31sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:background="@drawable/iv_char_count"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvNoOfWordHeading">
+
+            <TextView
+                android:id="@+id/tvCharCount"
+                style="@style/TextStyle7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/char_count"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clClearEdittext"
+            android:layout_width="@dimen/_127sdp"
+            android:layout_height="@dimen/_33sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@drawable/iv_char_count"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/clCharCount">
+
+            <TextView
+                android:id="@+id/tvClear"
+                style="@style/TextStyle7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/clear"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/clClearEdittext" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

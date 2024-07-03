@@ -1,0 +1,29 @@
+{
+"project_info": {
+"project_number": "276856054472",
+"project_id": "prankpulse-18399",
+"storage_bucket": "prankpulse-18399.appspot.com"
+},
+"client": [
+{
+"client_info": {
+"mobilesdk_app_id": "1:276856054472:android:a8d55ab7894337a32f7bfd",
+"android_client_info": {
+"package_name": "prank.funny.sounds.ca"
+}
+},
+"oauth_client": [],
+"api_key": [
+{
+"current_key": "AIzaSyCDdSHw7V6k3bhJwiS_OFrt06NT0Yl3y64"
+}
+],
+"services": {
+"appinvite_service": {
+"other_platform_oauth_client": []
+}
+}
+}
+],
+"configuration_version": "1"
+}

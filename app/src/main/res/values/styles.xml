@@ -1,0 +1,423 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+    </style>
+
+    <style name="ConcentAppDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="TextStyle23">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="TextStyle9SemiBold">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">@dimen/_9sdp</item>
+        <item name="android:lineSpacingExtra">1.3sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="CustomShapeAppearanceBottomSheetDialog" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <style name="AppMaterialTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+        <item name="checkboxStyle">@style/MyCheckBox</item>
+        <item name="radioButtonStyle">@style/Widget.App.RadioButton</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+
+    <style name="Widget.App.RadioButton" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.RadioButton</item>
+    </style>
+
+
+    <style name="ThemeOverlay.App.RadioButton" parent="">
+        <item name="colorOnSurface">@color/black</item>
+        <item name="colorSecondary">@color/colorPrimary</item>
+    </style>
+
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="AppDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+
+    <style name="MyCheckBox" parent="@style/Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.CheckBox</item>
+    </style>
+
+    <style name="ThemeOverlay.CheckBox" parent="">
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorOnSurface">@color/white</item>
+    </style>
+
+    <style name="custom_style_dialog">
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="CustomTextAppearanceTab" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+
+    <style name="TabTextAppearance" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextStyle3">
+        <item name="android:fontFamily">@font/poppins_black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/_37sdp</item>
+        <item name="android:lineSpacingExtra">19sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextStyle16">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/_25sdp</item>
+        <item name="android:lineSpacingExtra">@dimen/_2sdp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextStyle7">
+        <item name="android:fontFamily">@font/poppins_black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/_24sdp</item>
+        <item name="android:lineSpacingExtra">-4.7sp</item>
+        <item name="android:textColor">#ffe434</item>
+    </style>
+
+    <style name="TextStyle6">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/_23sdp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextStyle2">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/_23sdp</item>
+        <item name="android:lineSpacingExtra">8.7sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextStyle15SemiBold">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:lineSpacingExtra">0sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextStyle10Regular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextStyle13">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:lineSpacingExtra">0sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextStyle12">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:lineSpacingExtra">0.7sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextStyle5">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:lineSpacingExtra">7.3sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="DialogWatch">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/_17sdp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextStyle15">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+        <item name="android:lineSpacingExtra">6.7sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextStyle18">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextStyle17">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:letterSpacing">0.74</item>
+        <item name="android:lineSpacingExtra">1.3sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextStyle14">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextStyle11">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextStyle11_Regular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/_11sdp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextStyle8">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextStyle10">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/_9sdp</item>
+        <item name="android:lineSpacingExtra">1.3sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/_9sdp</item>
+        <item name="android:lineSpacingExtra">4.7sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextStyle4">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/_7sdp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">#585858</item>
+    </style>
+
+    <style name="TextStyle9">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/_5sdp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="DialogTheme" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="ShapeAppearance.Button" parent="ShapeAppearance.MaterialComponents">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">@dimen/_10sdp</item>
+        <item name="cornerSizeTopRight">@dimen/_10sdp</item>
+        <item name="cornerSizeBottomRight">@dimen/_10sdp</item>
+        <item name="cornerSizeBottomLeft">@dimen/_10sdp</item>
+    </style>
+
+    <style name="BottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottomSheetStyleWrapper</item>
+    </style>
+
+    <style name="bottomSheetStyleWrapper" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <string name="ad_attribution">Ad</string>
+
+    <style name="Theme.AppCompat.Translucent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">#77000000
+        </item> <!-- Or any transparency or color you need -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+    <style name="ConsentBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:layout_gravity">bottom</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="TextStyle_poppins_semibold_17">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">@dimen/_17sdp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="Feijoada">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/feijoada</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">@dimen/_20sdp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:letterSpacing">-0.07</item>
+        <item name="android:lineSpacingExtra">@dimen/_4sdp</item>
+        <item name="android:shadowRadius">6</item>
+        <item name="android:shadowColor">@color/black_16</item>
+    </style>
+
+    <style name="Feijoada_55">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/feijoada</item>
+        <item name="android:textSize">55sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:letterSpacing">-0.07</item>
+        <item name="android:lineSpacingExtra">-15.3sp</item>
+        <item name="android:shadowColor">#a6000000</item>
+    </style>
+
+    <style name="poppins_semibold">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">15.3sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:lineSpacingExtra">-0.07sp</item>
+    </style>
+    <style name="TextStyleGetStarted">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/feijoada</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">28.7sp</item>
+        <item name="android:letterSpacing">-0.07</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="TextStyle34">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">15.3sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineSpacingExtra">4.7sp</item>
+        <item name="android:textColor">#252525</item>
+    </style>
+    <style name="TextStyle58">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">15.3sp</item>
+        <item name="android:lineSpacingExtra">-0.7sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextStyle30">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/_9sdp</item>
+        <item name="android:lineSpacingExtra">0sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+</resources>

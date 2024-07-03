@@ -1,0 +1,19 @@
+# ninja log v5
+0	3	0	clean	13a1f051ce3c1dd5
+1	293	1718356306408843347	CMakeFiles/2048.dir/src/main/cpp/2048.cpp.o	47356ff6a2587656
+218	249	1718356306365273060	../../../../build/intermediates/cxx/RelWithDebInfo/cv2bu3a4/obj/x86/libnative-lib.so	5fcdf59845bd9da
+293	323	1718356306439475473	../../../../build/intermediates/cxx/RelWithDebInfo/cv2bu3a4/obj/x86/lib2048.so	a4c848c9e2e0ca87
+0	217	1718356306332587782	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	a89a26f36b35be2b
+0	3	0	clean	13a1f051ce3c1dd5
+0	3	0	clean	13a1f051ce3c1dd5
+0	2	0	clean	13a1f051ce3c1dd5
+0	3	0	clean	13a1f051ce3c1dd5
+0	3	0	clean	13a1f051ce3c1dd5
+0	3	0	clean	13a1f051ce3c1dd5
+0	2	0	clean	13a1f051ce3c1dd5
+0	2	0	clean	13a1f051ce3c1dd5
+0	3	0	clean	13a1f051ce3c1dd5
+1	214	1718871439373419155	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	a89a26f36b35be2b
+214	251	1718871439411739102	../../../../build/intermediates/cxx/RelWithDebInfo/cv2bu3a4/obj/x86/libnative-lib.so	5fcdf59845bd9da
+1	284	1718871439443596481	CMakeFiles/2048.dir/src/main/cpp/2048.cpp.o	47356ff6a2587656
+284	314	1718871439473950854	../../../../build/intermediates/cxx/RelWithDebInfo/cv2bu3a4/obj/x86/lib2048.so	a4c848c9e2e0ca87

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="adAppId">ca-app-pub-5408720375342272~5320375676</string>
+    <string name="app_name">Gold CompassPro</string>
+    <string name="facebook_app_id">569536698225887</string>
+    <string name="facebook_client_token">547e41619f4e336a1a18813bf3e7e23c</string>
+    <string name="prankpulse">Flashlight\nWorks</string>
+    <string name="air_horn">Secure Investment</string>
+    <string name="car">Stable Funding</string>
+    <string name="police_siren">Reliable Savings</string>
+    <string name="sneezing">Financial Security</string>
+    <string name="party_horn">Liquid Reserve</string>
+    <string name="fart">Steady Growth</string>
+    <string name="school_bell">Slow Fade Mode</string>
+    <string name="whistle">Candlelight Mode</string>
+    <string name="coughing">Searchlight Mode</string>
+
+    <string name="how_to_use_flashlightworks">How to Use:</string>
+    <string name="prankpulse_with_column">Elevate Your Exploration with Gold CompassPro!</string>
+    <string name="onlyBullet"><![CDATA[<b><font color=#fccc43>\u25CF</font></b> ]]></string>
+    <string name="open_the_prankpluse_app_on_your_device">Opening the App:</string>
+    <string name="browse_the_sounds">Launch the \"FlashlightWorks\" app from your device\'s home screen</string>
+    <string name="the_dashboard">The Dashboard:</string>
+    <string name="select_your_sound">The dashboard is your central control hub. Here, every feature is strategically placed for convenient use</string>
+    <string name="selecting_modes">Selecting Modes:</string>
+    <string name="tap_to_choose_from_different_flashlight_modes">Tap to choose from different flashlight modes</string>
+    <string name="flashlightworks_is_your_reliable_companion">Gain insights into investments through our intuitive calculator\'s analysis</string>
+    <string name="ready_to_illuminate_your_world">Just watch an ad to\nunlock the compass and step\ninto luxury navigation!</string>
+    <string name="watch_an_ad_to_unlock_the_mode">Watch an ad to unlock the mode.</string>
+    <!--<string name="discover_flashlightworks_your_reliable">Welcome aboard! InvestmentPlanner helps you project your investment returns with just a few taps. Dive in now!</string>-->
+    <string name="discover_flashlightworks_your_reliable">You\'re about to explore in \npremium style with Gold CompassPro.</string>
+    <string name="welcome_to_flashlightworks">Gold CompassPro:</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="mode">Mode</string>
+    <string name="next_mode">Next Mode</string>
+    <string name="flashlightspark_user_guide">FlashlightSpark User Guide</string>
+    <string name="launching_the_app">Launching The App:</string>
+    <string name="open_the_flashlightspark_app">Open the FlashlightSpark app</string>
+    <string name="home_screen">Home Screen:</string>
+    <string name="the_home_screen_serves_as_your_navigation_hub">The Home Screen serves as your \nnavigation hub.</string>
+    <string name="flashlight_modes">Flashlight Modes:</string>
+    <string name="tap_unlock_and_explore_various_flashlight_modes">Tap, unlock and explore various Flashlight Modes</string>
+    <string name="here_you_ll_find_access_to_all_of_flashlightspark_s_features">Here, you\'ll find access to all of \nFlashlightSpark\'s features</string>
+    <string name="welcome_to_flashlightspark">Welcome to FlashlightSpark!</string>
+    <string name="simply_input_deposit_amount_interest_rate_tenure_and_frequency_to_begin"> Simply input deposit amount,interest rate, tenure \nand frequency to begin.</string>
+    <string name="unlock_any_calculator">Unlock any calculator</string>
+    <string name="_3">3.</string>
+    <string name="_2">2.</string>
+    <string name="open_the_app">Open the app</string>
+    <string name="_1">1.</string>
+    <string name="history_will_visible_here">History will visible here</string>
+    <string name="result">Result</string>
+    <string name="deposit_amount">Deposit Amount:</string>
+    <string name="rate_of_interest">Rate of Interest:</string>
+    <string name="no_of_years">No of years:</string>
+    <string name="frequency">Frequency:</string>
+    <string name="yearly">Yearly</string>
+    <string name="investments">Navigate Luxuriously!</string>
+    <string name="translate_now">Start Navigating</string>
+    <string name="translate_camera">Camera</string>
+    <string name="translate_text_camera">Translate text from camera</string>
+    <string name="app_detect_the_text">App detects the text and translates automatically.</string>
+    <string name="point_camera_text">Point camera at text.</string>
+    <string name="camera_translation">Camera Translation:</string>
+    <string name="instantly_translation">Instantly translate in 80+ languages.</string>
+    <string name="speak_into">Speak into your device.</string>
+    <string name="tap_the_microphone">Tap the microphone icon.</string>
+    <string name="voice_translation">Voice Translation:</string>
+    <string name="get_instant">Get instant translations.</string>
+    <string name="select_language">3. Start navigating.</string>
+    <string name="type_or_paste">2. Unlock the compass</string>
+    <string name="text_translation">1. Launch Gold CompassPro on your device</string>
+    <string name="type_soak">Type/ Speak to translate</string>
+    <string name="sorry">Sorry</string>
+    <string name="translation_failed">Translation Failed Please Try Again</string>
+    <string name="type_speak_to_ranslate_hundred_plus_languages">Try Speak</string>
+    <string name="translate_text">Translate Text</string>
+    <string name="type_text_to_translate">Type text to translate</string>
+    <string name="translate">Translate</string>
+    <string name="translated_text_will_appear_here">Translated text will appear here</string>
+    <string name="language_selection">Language selection</string>
+    <string name="search_language">Search language</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="please_add_some_text_to_translate">Please Add Some Text To Translate</string>
+    <string name="copied">Copied</string>
+    <string name="there_are_nothing_to_copy_from_here">there are nothing to copy from here</string>
+
+
+    <string name="voice_translator">Voice Translator</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="translated_text_hint">Translated text</string>
+    <string name="unknown_error">Unknown error occurred.</string>
+    <string name="translator">Translator</string>
+    <string name="permissions_inactive">Permissions Inactive</string>
+    <string name="tap_ok_open_app_setting_permissions_turn_on_permissions">Tap OK -> Open App settings -> Permissions -> Turn ON permissions</string>
+    <string name="str_permission_title">We need access to this permission for making sure the app works perfectly for you.</string>
+    <string name="OK">  OK  </string>
+    <string name="str_click_on_permissions">
+<![CDATA[ Click on Permissions & allow all. ]]>
+</string>
+    <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="sorry_to_hear_that">Sorry to hear that!</string>
+    <string name="chars">Chars %s </string>
+    <string name="yay_please_share_the_review_on_google_play_store_redirecting_you">Yay! Please share the review on Google Play store. Redirecting you. :)</string>
+    <string name="translate_hundred_plus_languages">Translate 100+ languages</string>
+    <string name="image_translation">Image translation</string>
+    <string name="listen_to_translate_text">Listen to translate text</string>
+    <string name="continues">Continue</string>
+    <string name="translation_for_everyone">Choose the features you want!</string>
+    <string name="Select_your_preferred_language">Select your preferred language</string>
+    <string name="translate_text_in_hundred_plus_languages">Translate text in 100+ languages</string>
+    <string name="translate_text_from_images">Translate text from images</string>
+    <string name="Listen_to_translated_text">Listen to translated text</string>
+    <string name="you_need_voice_translation">You need voice translation?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="you_need_camera_translation">You need camera translation?</string>
+    <string name="type_speak_to_ranslate_hundred_plus_languages_supported">Type/ Speak to translate. 100+ languages supported</string>
+    <string name="auto">Auto</string>
+    <string name="paste">Paste</string>
+    <string name="cancel">Cancel</string>
+    <string name="downloading_language">Downloading language...</string>
+    <string name="gallary">Gallery</string>
+    <string name="translate_text_in_an_existing_photo">Translate text in an existing photo</string>
+    <string name="rate_us">Rate us</string>
+    <string name="loading_ad">Loading ad</string>
+    <string name="camera">Camera</string>
+    <string name="translate_text_from_camera_directly">Translate text from camera directly</string>
+    <string name="offline_translation">Offline Translation</string>
+    <string name="watch_now">Watch Now</string>
+    <string name="skip"><u>Skip</u></string>
+    <string name="get_unlimited_access_to_all_features">Get unlimited Access to All Features for FREE</string>
+    <string name="all_features_unlocked">All features unlocked!</string>
+    <string name="choose_a_specific_language_to_enable_voice_input">Choose a specific language to enable voice input</string>
+    <string name="there_are_nothing_to_paste_here">There are nothing to paste here.</string>
+    <string name="try_again">Try again…</string>
+    <string name="something_went_wrong">Something went wrong…</string>
+    <string name="watch_video_to_get_access_of_all_features_for_free">Watch video to get access of all features <font color='#0065FF'>for FREE</font></string>
+    <string name="hello_adventurer">Hello, Adventurer!</string>
+    <string name="your_unlimited_prank_sound_app">Discover new horizons with unparalleled precision and a touch of luxury every step of the way.</string>
+    <string name="embark_on_your_journey_with_precision_and_style_let_gold_compasspro_be_your_trusted_guide_to_every_destination">Embark on your journey with precision and style! Let Gold CompassPro be your trusted guide to every destination.</string>
+
+</resources>

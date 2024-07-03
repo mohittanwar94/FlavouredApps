@@ -1,0 +1,5 @@
+# ninja log v5
+0	127	1716211469833013964	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	927ec9cba15d2b58
+128	172	1716211469870210706	../../../../build/intermediates/cxx/RelWithDebInfo/6g1t4b5t/obj/armeabi-v7a/libnative-lib.so	8459894e737a72a9
+0	197	1716211469903077739	CMakeFiles/2048.dir/src/main/cpp/2048.cpp.o	391f12af3edc86fc
+197	236	1716211469934628675	../../../../build/intermediates/cxx/RelWithDebInfo/6g1t4b5t/obj/armeabi-v7a/lib2048.so	a3ede640d0e05d20

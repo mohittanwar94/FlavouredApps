@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvHowToUse"
+        style="@style/TextStyle6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/how_to_use"
+        android:textAlignment="textStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvHowToUseHint"
+        style="@style/TextStyle10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:text="@string/how_to_get_started"
+        android:textAlignment="textStart"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHowToUse" />
+
+    <TextView
+        android:id="@+id/tvPointFirstHeading"
+        style="@style/TextStyle10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_9sdp"
+        android:text="@string/launch_prankpluse"
+        android:textAlignment="textStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHowToUseHint" />
+
+    <TextView
+        android:id="@+id/tvFirstPointBullet"
+        style="@style/TextStyle11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingEnd="@dimen/_5sdp"
+        android:text="@string/onlyBullet"
+        app:layout_constraintEnd_toStartOf="@+id/tvFirstPointText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPointFirstHeading" />
+
+    <TextView
+        android:id="@+id/tvFirstPointText"
+        style="@style/TextStyle11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/open_the_prankpluse_app_on_your_device"
+        android:textAlignment="textStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvFirstPointBullet"
+        app:layout_constraintTop_toBottomOf="@+id/tvPointFirstHeading" />
+
+
+    <TextView
+        android:id="@+id/tvPointSecondHeading"
+        style="@style/TextStyle10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_9sdp"
+        android:text="@string/browse_the_sounds"
+        android:textAlignment="textStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvFirstPointText" />
+
+
+    <TextView
+        android:id="@+id/tvSecondPointBullet"
+        style="@style/TextStyle11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingEnd="0dp"
+        android:text="@string/onlyBullet"
+        app:layout_constraintEnd_toStartOf="@+id/tvSecondPointText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPointSecondHeading" />
+
+    <TextView
+        android:id="@+id/tvSecondPointText"
+        style="@style/TextStyle11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/_5sdp"
+        android:text="@string/scroll_through_the_list_of_hilarious_sounds_available_in_the_app_each_sound_is_tailored_for_maximum_comedic_impact"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvSecondPointBullet"
+        app:layout_constraintTop_toBottomOf="@+id/tvPointSecondHeading" />
+
+    <TextView
+        android:id="@+id/tvPointThirdHeading"
+        style="@style/TextStyle10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_9sdp"
+        android:text="@string/select_your_sound"
+        android:textAlignment="textStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSecondPointText" />
+
+
+    <TextView
+        android:id="@+id/tvThirdPointBullet"
+        style="@style/TextStyle11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_6sdp"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingEnd="0dp"
+        android:text="@string/onlyBullet"
+        app:layout_constraintEnd_toStartOf="@+id/tvThirdPointText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPointThirdHeading" />
+
+    <TextView
+        android:id="@+id/tvThirdPointText"
+        style="@style/TextStyle11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingEnd="0dp"
+        android:paddingBottom="@dimen/_25sdp"
+        android:text="@string/watch_a_video_to_unlock_hilarious_prank_sound_and_experience_the_immediate_burst_of_laughter_or_surprise"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvThirdPointBullet"
+        app:layout_constraintTop_toBottomOf="@+id/tvPointThirdHeading" />
+
+    <TextView
+        android:id="@+id/tvManageDataPref"
+        style="@style/TextStyle16"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_58sdp"
+        android:layout_marginBottom="@dimen/_11sdp"
+        android:background="@drawable/get_started_btn"
+        android:gravity="center"
+        android:textSize="@dimen/_12sdp"
+        android:paddingBottom="@dimen/_2sdp"
+        android:text="@string/manage_data_preferences"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvThirdPointText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

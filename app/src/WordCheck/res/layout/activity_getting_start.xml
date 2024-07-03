@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.9"
+    android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/getting_start_bg"
+        android:paddingBottom="@dimen/_11sdp"
+        android:clipToPadding="false">
+        <ImageView
+            android:id="@+id/ivtopImage"
+            android:layout_width="@dimen/_198sdp"
+            android:layout_height="@dimen/_112sdp"
+            android:layout_marginTop="@dimen/_84sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/splash_logo" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivBox"
+            android:layout_width="@dimen/_142sdp"
+            android:layout_height="@dimen/_68sdp"
+            android:layout_marginTop="@dimen/_49sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivtopImage"
+            app:srcCompat="@drawable/splash_image" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivCalculator"
+            android:layout_width="@dimen/_219sdp"
+            android:layout_height="@dimen/_179sdp"
+            android:layout_marginTop="@dimen/_53sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:scaleType="fitXY"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivBox"
+            android:src="@drawable/splash_image" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:id="@+id/tvHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:includeFontPadding="false"
+            app:layout_constraintTop_toBottomOf="@+id/ivCalculator"
+            app:layout_constraintBottom_toTopOf="@+id/tvOne"
+            android:paddingStart="@dimen/_16sdp"
+            android:paddingEnd="@dimen/_16sdp"
+            android:text="@string/hello_adventurer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tvOne"
+            style="@style/TextStyle2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_28sdp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:layout_marginStart="@dimen/_48sdp"
+            android:layout_marginEnd="@dimen/_48sdp"
+            android:lineSpacingExtra="@dimen/_minus3sdp"
+            android:text="@string/discover_flashlightworks_your_reliable"
+            app:layout_constraintBottom_toTopOf="@+id/constraintBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/tvAd"
+            style="@style/TextStyle10"
+            android:layout_width="@dimen/_13sdp"
+            android:layout_height="@dimen/_13sdp"
+            android:layout_marginEnd="@dimen/_minus8sdp"
+            android:gravity="end"
+            android:includeFontPadding="false"
+            android:text="@string/ad"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/constraintBtn"
+            app:layout_constraintEnd_toEndOf="@+id/constraintBtn"
+            app:layout_constraintVertical_bias="1.5" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintBtn"
+            android:layout_width="@dimen/_228sdp"
+            android:layout_height="@dimen/_59sdp"
+            android:layout_marginBottom="@dimen/_42sdp"
+            android:background="@drawable/start_btn_bg"
+            app:layout_constraintBottom_toTopOf="@+id/checkBox"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/tvGetStarted"
+                style="@style/TextStyle2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/get_started"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAllCaps="false"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/_31sdp"
+            android:layout_marginEnd="@dimen/_2sdp"
+            android:checked="true"
+            android:paddingBottom="@dimen/_15sdp"
+            android:theme="@style/NewCheckBox"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="@dimen/_5sdp"/>
+
+        <TextView
+            android:id="@+id/tvPleaseAgree"
+            style="@style/TextStyle3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_minus10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_41sdp"
+            android:gravity="start"
+            android:text="@string/tnc_span"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/checkBox"
+            app:layout_constraintTop_toTopOf="@+id/checkBox"
+            android:layout_marginBottom="@dimen/_1sdp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

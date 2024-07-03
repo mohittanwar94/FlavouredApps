@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "615161173816",
+    "project_id": "drumjam-27c4f",
+    "storage_bucket": "drumjam-27c4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615161173816:android:d02877ed3eb880b6ead3cd",
+        "android_client_info": {
+          "package_name": "drumjam.music.audio.ca"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANPFIS8jM59-d1F9ALT9Ge-FYYDWH4gJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,5 @@
+# ninja log v5
+0	386	1718088048412731138	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	67f568e38e6f2171
+388	441	1718088048468972673	../../../../build/intermediates/cxx/Debug/65245lss/obj/x86/libnative-lib.so	47b007a38a8e2b3d
+0	456	1718088048483537764	CMakeFiles/2048.dir/src/main/cpp/2048.cpp.o	44cfa7320c6dde2d
+456	506	1718088048531405861	../../../../build/intermediates/cxx/Debug/65245lss/obj/x86/lib2048.so	4f64aa2684f1df6f

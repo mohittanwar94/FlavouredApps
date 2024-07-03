@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#6206A8</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="sunflower_yellow">#ffd500</color>
+    <color name="splash_screen_bg_color">#FFFFFF</color>
+    <color name="white">#ffffff</color>
+    <color name="greyish_brown">#585858</color>
+    <color name="black_16">#29000000</color>
+    <color name="white_two">#f9f9f9</color>
+    <color name="black">#000000</color>
+    <color name="orange_red">#ff2424</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="color_F3F3F3">#F3F3F3</color>
+    <color name="color_trans_70_per_B3000000">#B3000000</color>
+    <color name="color_trans_70_per_CC000000">#CC000000</color>
+    <color name="color_trans_95_per_B3000000">#F2000000</color>
+    <color name="color_0c60bf">#0c60bf</color>
+    <color name="color_F1F6FA">#F1F6FA</color>
+    <color name="color_202020">#202020</color>
+    <color name="color_8000FF">#0099BA</color>
+    <color name="color_36454F">#36454F</color>
+    <color name="color_B9D4EC">#B9D4EC</color>
+    <color name="color_FFC700">#ffc700</color>
+    <color name="color_tncs">#ffffff</color>
+    <color name="color_f2eca6">#f2eca6</color>
+    <color name="color_cta_button">#230067</color>
+    <color name="color_cta_text_heading">#000000</color>
+    <color name="color_a7002b">#a7002b</color>
+    <color name="color_de8b40">#de8b40</color>
+    <color name="color_9f66e7">#9f66e7</color>
+</resources>

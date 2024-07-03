@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_10sdp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rl_heding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvHowToUse"
+            style="@style/TextStyle17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_11sdp"
+            android:includeFontPadding="false"
+            android:text="@string/how_to_use"
+            android:textAlignment="textStart"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_headingOne"
+            style="@style/TextStyle20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_14sdp"
+            android:includeFontPadding="false"
+            android:text="@string/_1_unlock_tracker"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvHowToUse" />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/disOne"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_headingOne">
+
+            <View
+                android:id="@+id/ivCircleOne"
+                android:layout_width="@dimen/_8sdp"
+                android:layout_height="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvDiscOne"
+                style="@style/TextStyle21"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="@dimen/_minus3sdp"
+                android:text="@string/select_and_unlock_your_preferred_tracker_for_the_activity_you_want_to_track"
+                app:layout_constraintStart_toEndOf="@+id/ivCircleOne"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_headingTwo"
+            style="@style/TextStyle20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_9sdp"
+            android:includeFontPadding="false"
+            android:text="@string/_2_enter_data"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/disOne" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/disTow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_headingTwo">
+            <View
+                android:id="@+id/ivCircleTwo"
+                android:layout_width="@dimen/_8sdp"
+                android:layout_height="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvDiscTow"
+                style="@style/TextStyle21"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_14sdp"
+                android:includeFontPadding="false"
+                android:text="@string/add_or_subtract_values_as_needed"
+                android:textAlignment="textStart"
+                app:layout_constraintStart_toEndOf="@+id/ivCircleTwo"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_headingThree"
+            style="@style/TextStyle20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_9sdp"
+            android:includeFontPadding="false"
+            android:text="@string/_3_unlock_more_trackers"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/disTow" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/disThree"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_headingThree">
+
+            <View
+                android:id="@+id/ivCircleThree"
+                android:layout_width="@dimen/_8sdp"
+                android:layout_height="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvDiscThree"
+                style="@style/TextStyle21"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_14sdp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:text="@string/repeat_the_process_for_other_activities"
+                app:layout_constraintStart_toEndOf="@+id/ivCircleThree"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_headingFour"
+            style="@style/TextStyle20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_9sdp"
+            android:includeFontPadding="false"
+            android:text="@string/_4_celebrate_achievements"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/disThree" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/disFour"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/txt_headingFour">
+
+            <View
+                android:id="@+id/ivCircleFour"
+                android:layout_width="@dimen/_8sdp"
+                android:layout_height="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvDiscFour"
+                style="@style/TextStyle21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_14sdp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:text="@string/celebrate_milestones_and_progress"
+                app:layout_constraintStart_toEndOf="@+id/ivCircleFour"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvManageDataPref"
+        style="@style/TextStyle_poppins_semibold_17"
+        android:layout_width="@dimen/_217sdp"
+        android:layout_height="@dimen/_46sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/get_started_btn"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/manage_data_preferences"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rl_heding" />
+</androidx.constraintlayout.widget.ConstraintLayout>

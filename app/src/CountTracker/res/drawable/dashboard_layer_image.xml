@@ -1,0 +1,11 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/dahboard_bg" />
+    </item>
+
+    <item
+        android:width="@dimen/_300sdp"
+        android:height="@dimen/_246sdp"
+        android:drawable="@drawable/dashboard_center_bg"
+        android:gravity="center" />
+</layer-list>

@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "/Users/mohittanwar/Documents/demo-flavour-apps/app/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/mohittanwar/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/mohittanwar/Documents/demo-flavour-apps/app/.cxx/Debug/2b1i2l3s/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/mohittanwar/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/mohittanwar/Documents/demo-flavour-apps/app/.cxx/Debug/2b1i2l3s/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "2048::@6890427a1f51a3e7e1df": {
+      "artifactName": "2048",
+      "abi": "x86",
+      "output": "/Users/mohittanwar/Documents/demo-flavour-apps/app/build/intermediates/cxx/Debug/2b1i2l3s/obj/x86/lib2048.so",
+      "runtimeFiles": []
+    },
+    "native-lib::@6890427a1f51a3e7e1df": {
+      "artifactName": "native-lib",
+      "abi": "x86",
+      "output": "/Users/mohittanwar/Documents/demo-flavour-apps/app/build/intermediates/cxx/Debug/2b1i2l3s/obj/x86/libnative-lib.so",
+      "runtimeFiles": []
+    }
+  }
+}

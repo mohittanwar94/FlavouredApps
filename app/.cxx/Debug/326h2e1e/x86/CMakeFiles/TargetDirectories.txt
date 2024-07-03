@@ -1,0 +1,3 @@
+/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/.cxx/Debug/326h2e1e/x86/CMakeFiles/native-lib.dir
+/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/.cxx/Debug/326h2e1e/x86/CMakeFiles/edit_cache.dir
+/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/.cxx/Debug/326h2e1e/x86/CMakeFiles/rebuild_cache.dir

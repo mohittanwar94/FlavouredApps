@@ -1,0 +1,45 @@
+{
+  "buildFiles": [
+    "/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/mohittanwar/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/.cxx/Debug/65245lss/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/mohittanwar/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/.cxx/Debug/65245lss/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "2048::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "2048",
+      "output": "/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/build/intermediates/cxx/Debug/65245lss/obj/x86/lib2048.so",
+      "runtimeFiles": []
+    },
+    "native-lib::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "native-lib",
+      "output": "/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/build/intermediates/cxx/Debug/65245lss/obj/x86/libnative-lib.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/mohittanwar/Library/Android/sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/mohittanwar/Library/Android/sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

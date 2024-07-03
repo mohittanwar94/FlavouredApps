@@ -1,0 +1,225 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'com.google.firebase.crashlytics'
+    id 'kotlin-parcelize'
+    id 'com.google.gms.google-services'
+    id 'kotlin-kapt'
+    id 'com.google.firebase.firebase-perf'
+    id 'com.google.dagger.hilt.android'
+    id 'com.google.devtools.ksp'
+    id 'org.jetbrains.kotlin.plugin.compose'
+}
+apply plugin: 'kotlin-android'
+
+android {
+    namespace = "com.example.myapplication"
+    compileSdk = 34
+    ndkVersion = '26.2.11394342'
+    def keys = new Properties()
+    file("keys.properties").withInputStream { stream -> keys.load(stream)
+    }
+    signingConfigs {
+        releaseConfig {
+            keyAlias keys.keyAlias
+            keyPassword keys.keyPassword
+            storeFile file(keys.storeFile)
+            storePassword keys.keyPassword
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+            version "3.22.1"
+        }
+    }
+    defaultConfig {
+        applicationId = "com.example.myapplication"
+        minSdk = 23
+        targetSdk = 34
+        versionCode = 1
+        versionName = "1.0"
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables {
+            useSupportLibrary = true
+        }
+    }
+
+    buildTypes {
+        release {
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"),
+                    "proguard-rules.pro")
+        }
+    }
+    packaging {
+        resources {
+            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+        }
+    }
+    flavorDimensions = ["main"]
+    productFlavors {
+        GoldCompassPro {
+            versionCode 1
+            versionName "1.0"
+            applicationId "compass.tools.navigation.ca"
+            signingConfig signingConfigs.releaseConfig
+        }
+        CountTracker {
+            versionCode 3
+            versionName "3.0"
+            applicationId "activitycounter.tracker.tools.ca"
+            signingConfig signingConfigs.releaseConfig
+        }
+        WordCheck {
+            versionCode 2
+            versionName "2.0"
+            applicationId "character.counter.tools.ca"
+            signingConfig signingConfigs.releaseConfig
+        }
+        DrumJam {
+            versionCode 2
+            versionName "2.0"
+            applicationId "drumjam.music.audio.ca"
+            signingConfig signingConfigs.releaseConfig
+        }
+        DiceFenzy {
+            versionCode 1
+            versionName "1.0"
+            applicationId "dicefrenzy.board.casualgames.ca"
+            signingConfig signingConfigs.releaseConfig
+        }
+
+        QuickLapStopwatch {
+            versionCode 2
+            versionName "2.0"
+            applicationId "quicklap.stopwatch.pro.ca"
+            signingConfig signingConfigs.releaseConfig
+        }
+        TurboTaskManager {
+            versionCode 4
+            versionName "4.0"
+            applicationId "turbotask.management.tools.ca"
+            signingConfig signingConfigs.releaseConfig
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+            res.srcDirs = ['src/main/res']
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.1"
+    }
+    buildFeatures {
+        viewBinding true
+        compose true
+    }
+    lint {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+    namespace 'com.qureka.skool'
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'androidx.core:core-ktx:1.13.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.activity:activity-ktx:1.9.0'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation("org.mockito:mockito-core:5.7.0")
+    testImplementation("org.mockito.kotlin:mockito-kotlin:5.2.1")
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.3'
+    implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.3'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.9.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.9.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0'
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+    implementation "com.google.android.material:material:1.12.0"
+    debugImplementation 'androidx.compose.ui:ui-tooling:1.6.8'
+    implementation("com.github.bumptech.glide:glide:4.15.1")
+    ksp("com.github.bumptech.glide:ksp:4.14.2")
+    implementation 'com.skyfishjy.ripplebackground:library:1.0.1'
+    implementation 'com.daasuu:animateHorizontalProgressBar:0.2.4'
+    implementation "com.airbnb.android:lottie:6.0.0"
+    implementation platform('com.google.firebase:firebase-bom:33.1.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-crashlytics:19.0.1'
+    implementation 'com.google.android.gms:play-services-analytics:18.1.0'
+    implementation "com.google.firebase:firebase-messaging:24.0.0"
+    implementation 'com.google.firebase:firebase-core:21.1.1'
+    implementation 'com.kaopiz:kprogresshud:1.2.0'
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+    implementation 'com.singular.sdk:singular_sdk:12.5.5'
+    debugImplementation "com.github.chuckerteam.chucker:library:3.5.2"
+    releaseImplementation "com.github.chuckerteam.chucker:library-no-op:3.5.2"
+    implementation 'androidx.activity:activity-ktx:1.9.0'
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.2"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.fragment:fragment-ktx:1.8.0'
+    implementation 'com.google.android.gms:play-services-ads:23.1.0'
+    implementation 'com.google.ads.mediation:facebook:6.17.0.0'
+    implementation 'com.google.firebase:firebase-analytics-ktx:22.0.1'
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.android.installreferrer:installreferrer:2.2'
+    implementation 'com.github.KeepSafe:ReLinker:1.4.3'
+    implementation 'com.google.firebase:firebase-config-ktx'
+    implementation 'com.google.firebase:firebase-perf-ktx'
+    implementation 'com.github.muratozturk5:ClickShrinkEffectLibrary:1.2.0'
+
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.22'
+    // implementation 'com.google.android.play:core:1.10.3'
+    //implementation 'com.google.android.play:app-update:2.1.0'
+   // implementation 'com.google.android.play:asset-delivery:2.2.2'
+    //implementation 'com.google.android.play:integrity:1.3.0'
+   // implementation 'com.google.android.play:review:2.0.1'
+
+    implementation 'com.mikhaellopez:circularimageview:4.3.0'
+    implementation "com.airbnb.android:lottie:6.0.0"
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.mikhaellopez:circularimageview:4.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.22'
+    implementation 'com.google.android.ump:user-messaging-platform:2.2.0'
+    implementation 'androidx.webkit:webkit:1.11.0'
+    implementation("com.google.dagger:hilt-android:2.50")
+    ksp("com.google.dagger:hilt-android-compiler:2.50")
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    //for compose
+    implementation("androidx.compose.ui:ui")
+    implementation("androidx.compose.ui:ui-graphics")
+    implementation("androidx.compose.ui:ui-tooling-preview")
+    implementation("androidx.compose.ui:ui-tooling-preview:1.6.8")
+    implementation("androidx.compose.material3:material3")
+    implementation(platform("androidx.compose:compose-bom:2024.06.00"))
+    implementation("io.coil-kt:coil-compose:1.3.2")
+    implementation("androidx.compose.runtime:runtime-livedata:1.6.8")
+    implementation("androidx.compose.material:material:1.6.8")
+    implementation("androidx.navigation:navigation-runtime-ktx:2.7.7")
+    implementation("androidx.navigation:navigation-compose:2.7.7")
+    implementation("androidx.compose.ui:ui-viewbinding:1.6.8")
+    def camerax_version = "1.3.3"
+    TurboTaskManagerImplementation "androidx.room:room-runtime:2.6.1"
+    ksp "androidx.room:room-compiler:2.6.1"
+    TurboTaskManagerImplementation "androidx.room:room-ktx:2.6.1"
+}

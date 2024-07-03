@@ -1,0 +1,19 @@
+# ninja log v5
+0	3	0	clean	13a1f051ce3c1dd5
+0	385	1718356305327615069	CMakeFiles/2048.dir/src/main/cpp/2048.cpp.o	2a7360c7d82bb07c
+334	366	1718356305309627691	../../../../build/intermediates/cxx/RelWithDebInfo/cv2bu3a4/obj/arm64-v8a/libnative-lib.so	ffdb71bc4c979f9
+385	414	1718356305357595990	../../../../build/intermediates/cxx/RelWithDebInfo/cv2bu3a4/obj/arm64-v8a/lib2048.so	2a4e12d20b9f303a
+0	333	1718356305274789844	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	e8c9eb8662eca444
+1	3	0	clean	13a1f051ce3c1dd5
+0	3	0	clean	13a1f051ce3c1dd5
+0	2	0	clean	13a1f051ce3c1dd5
+0	3	0	clean	13a1f051ce3c1dd5
+0	2	0	clean	13a1f051ce3c1dd5
+0	2	0	clean	13a1f051ce3c1dd5
+0	3	0	clean	13a1f051ce3c1dd5
+0	2	0	clean	13a1f051ce3c1dd5
+0	3	0	clean	13a1f051ce3c1dd5
+1	496	1718871438693169644	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	e8c9eb8662eca444
+2	536	1718871438734547437	CMakeFiles/2048.dir/src/main/cpp/2048.cpp.o	2a7360c7d82bb07c
+536	611	1718871438809388824	../../../../build/intermediates/cxx/RelWithDebInfo/cv2bu3a4/obj/arm64-v8a/lib2048.so	2a4e12d20b9f303a
+496	611	1718871438809392782	../../../../build/intermediates/cxx/RelWithDebInfo/cv2bu3a4/obj/arm64-v8a/libnative-lib.so	ffdb71bc4c979f9

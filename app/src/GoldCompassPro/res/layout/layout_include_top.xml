@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        style="@style/TextStyle10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:includeFontPadding="false"
+        android:lineSpacingMultiplier="0.7"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_12sdp"
+        android:text="@string/prankpulse_with_column"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvUnlimitedPrank"
+        style="@style/TextStyle11"
+        android:textSize="@dimen/_12sdp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="@dimen/_minus1sdp"
+        android:text="@string/your_unlimited_prank_sound_app"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivCompass"
+        android:layout_width="@dimen/_89sdp"
+        android:layout_height="@dimen/_89sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/iv_dsashboard_compasss"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvUnlimitedPrank"/>
+
+    <TextView
+        android:id="@+id/tvGetReadyForTheWorld"
+        style="@style/TextStyle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:includeFontPadding="false"
+        android:lineSpacingMultiplier="0.7"
+        android:visibility="gone"
+        android:text="@string/flashlightworks_is_your_reliable_companion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvUnlimitedPrank" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/mohittanwar/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/.cxx/RelWithDebInfo/6g1t4b5t/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/mohittanwar/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/.cxx/RelWithDebInfo/6g1t4b5t/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "2048::@6890427a1f51a3e7e1df": {
+      "artifactName": "2048",
+      "abi": "x86",
+      "output": "/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/build/intermediates/cxx/RelWithDebInfo/6g1t4b5t/obj/x86/lib2048.so",
+      "runtimeFiles": []
+    },
+    "native-lib::@6890427a1f51a3e7e1df": {
+      "artifactName": "native-lib",
+      "abi": "x86",
+      "output": "/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/build/intermediates/cxx/RelWithDebInfo/6g1t4b5t/obj/x86/libnative-lib.so",
+      "runtimeFiles": []
+    }
+  }
+}

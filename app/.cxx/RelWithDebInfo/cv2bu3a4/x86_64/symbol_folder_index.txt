@@ -1,0 +1,1 @@
+/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/build/intermediates/cxx/RelWithDebInfo/cv2bu3a4/obj/x86_64

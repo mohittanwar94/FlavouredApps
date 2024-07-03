@@ -1,0 +1,18 @@
+                        -H/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=23
+-DANDROID_PLATFORM=android-23
+-DANDROID_ABI=x86_64
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DANDROID_NDK=/Users/mohittanwar/Library/Android/sdk/ndk/26.2.11394342
+-DCMAKE_ANDROID_NDK=/Users/mohittanwar/Library/Android/sdk/ndk/26.2.11394342
+-DCMAKE_TOOLCHAIN_FILE=/Users/mohittanwar/Library/Android/sdk/ndk/26.2.11394342/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/mohittanwar/Library/Android/sdk/cmake/3.22.1/bin/ninja
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/build/intermediates/cxx/Debug/2b1i2l3s/obj/x86_64
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/build/intermediates/cxx/Debug/2b1i2l3s/obj/x86_64
+-DCMAKE_BUILD_TYPE=Debug
+-B/Users/mohittanwar/Documents/coolbootsprojects/multi-app-fe/app/.cxx/Debug/2b1i2l3s/x86_64
+-GNinja
+                        Build command args: []
+                        Version: 2
