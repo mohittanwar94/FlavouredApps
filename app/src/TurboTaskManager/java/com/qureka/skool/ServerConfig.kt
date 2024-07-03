@@ -6,7 +6,7 @@ package com.qureka.skool
 
 object ServerConfig {
     const val APP_ID = "turbotask.management.tools.ca" // live
-    const val appBaseUrl: String = "https://feapps.qureka.me"
+    const val appBaseUrl: String = "https://google.com"
     const val appScreenShotDisable: Boolean = true
     const val provider = "turbotask.management.tools.ca.provider"
     const val fireBaseEventPreFix = "APP53_"
