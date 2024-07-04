@@ -17,12 +17,6 @@
     "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
-    "2048::@6890427a1f51a3e7e1df": {
-      "artifactName": "2048",
-      "abi": "arm64-v8a",
-      "output": "/Users/mohittanwar/Documents/FlavouredApps/app/build/intermediates/cxx/Debug/2b1i2l3s/obj/arm64-v8a/lib2048.so",
-      "runtimeFiles": []
-    },
     "native-lib::@6890427a1f51a3e7e1df": {
       "artifactName": "native-lib",
       "abi": "arm64-v8a",
