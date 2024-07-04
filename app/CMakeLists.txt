@@ -15,14 +15,3 @@ add_library( # Sets the name of the library.
         # Associated headers in the same location as their source
         # file are automatically included.
         src/main/cpp/native-lib.cpp )
-
-add_library( # Sets the name of the library.
-        2048
-
-        # Sets the library as a shared library.
-        SHARED
-
-        # Provides a relative path to your source file(s).
-        # Associated headers in the same location as their source
-        # file are automatically included.
-        src/main/cpp/2048.cpp)

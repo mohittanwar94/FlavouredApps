@@ -134,8 +134,8 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     testImplementation("org.mockito:mockito-core:5.7.0")
     testImplementation("org.mockito.kotlin:mockito-kotlin:5.2.1")
-    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
     implementation 'com.google.code.gson:gson:2.10.1'
     implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.3'
     implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.3'
@@ -153,9 +153,9 @@ dependencies {
     implementation 'com.skyfishjy.ripplebackground:library:1.0.1'
     implementation 'com.daasuu:animateHorizontalProgressBar:0.2.4'
     implementation "com.airbnb.android:lottie:6.0.0"
-    implementation platform('com.google.firebase:firebase-bom:33.1.0')
+    implementation platform('com.google.firebase:firebase-bom:33.1.1')
     implementation 'com.google.firebase:firebase-analytics'
-    implementation 'com.google.firebase:firebase-crashlytics:19.0.1'
+    implementation 'com.google.firebase:firebase-crashlytics:19.0.2'
     implementation 'com.google.android.gms:play-services-analytics:18.1.0'
     implementation "com.google.firebase:firebase-messaging:24.0.0"
     implementation 'com.google.firebase:firebase-core:21.1.1'
@@ -165,12 +165,12 @@ dependencies {
     debugImplementation "com.github.chuckerteam.chucker:library:3.5.2"
     releaseImplementation "com.github.chuckerteam.chucker:library-no-op:3.5.2"
     implementation 'androidx.activity:activity-ktx:1.9.0'
-    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.2"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'androidx.fragment:fragment-ktx:1.8.0'
-    implementation 'com.google.android.gms:play-services-ads:23.1.0'
+    implementation 'androidx.fragment:fragment-ktx:1.8.1'
+    implementation 'com.google.android.gms:play-services-ads:23.2.0'
     implementation 'com.google.ads.mediation:facebook:6.17.0.0'
-    implementation 'com.google.firebase:firebase-analytics-ktx:22.0.1'
+    implementation 'com.google.firebase:firebase-analytics-ktx:22.0.2'
     implementation 'com.google.firebase:firebase-analytics'
     implementation 'com.android.installreferrer:installreferrer:2.2'
     implementation 'com.github.KeepSafe:ReLinker:1.4.3'
