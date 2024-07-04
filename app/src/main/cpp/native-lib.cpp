@@ -7,12 +7,12 @@
 extern "C"
 JNIEXPORT jstring JNICALL
 Java_com_qureka_skool_CredentialHelper_singularAppKey(JNIEnv *env, jclass clazz) {
-    std::string baseURL = "timesinternet";
+    std::string baseURL = "";
     return env->NewStringUTF(baseURL.c_str());
 }
 extern "C"
 JNIEXPORT jstring JNICALL
 Java_com_qureka_skool_CredentialHelper_globalConfigAppKey(JNIEnv *env, jclass clazz) {
-    std::string baseURL = "MediaCoolboots#@05746231975%";
+    std::string baseURL = "05746231975%";
     return env->NewStringUTF(baseURL.c_str());
 }
